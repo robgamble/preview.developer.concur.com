@@ -74,6 +74,21 @@ Name | Type | Format | Description
 ```
 https://www.concursolutions.com/api/v3.0/expense/entries/gWidFO7ikXV66iSvqtG6Yd0wZ%24s4ftzvzTCg
 ```
+## Gets an Expense Entry <a name="delete"></a>
+
+   GET  /api/v3.0/expense/entries/{id}
+
+### Parameters
+
+Name | Type | Format | Description
+-----|------|--------|------------
+`id`|````string````|`path`|**Required** The expense entry ID.
+`user`|````string````|`query`|The login ID of the user who owns the entries. The user must have the Web Services Admin role to use this parameter.
+
+### Request URL
+```
+https://www.concursolutions.com/api/v3.0/expense/entries/gWidFO7ikXV66iSvqtG6Yd0wZ%24s4ftzvzTCg
+```
 
 ## Schema <a name="schema"></a>
 
